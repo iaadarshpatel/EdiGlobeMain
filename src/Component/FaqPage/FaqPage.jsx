@@ -81,8 +81,8 @@ const FaqPage = () => {
                                 <div className="banner_content text-center">
                                     <h2>Frequently Asked Question</h2>
                                     <div className="page_link">
-                                        <Link to="">Home</Link>
-                                        <Link href="about-us.html">FAQs</Link>
+                                        <Link to="/">Home</Link>
+                                        <Link>FAQs</Link>
                                     </div>
                                 </div>
                             </div>

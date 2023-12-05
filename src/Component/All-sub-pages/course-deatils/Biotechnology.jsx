@@ -56,7 +56,7 @@ const BioTechnology = () => {
                   <h2>BioTechnology</h2>
                   <div className="page_link">
                     <Link to="/">Home</Link>
-                    <a href="about-us.html">BioTechnology</a>
+                    <a>BioTechnology</a>
                   </div>
                 </div>
               </div>

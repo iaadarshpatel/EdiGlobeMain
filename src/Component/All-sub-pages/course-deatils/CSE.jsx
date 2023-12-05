@@ -23,7 +23,8 @@ const CSE = () => {
       course_detail: "App development is crafting mobile applications for devices like smartphones and tablets, encompassing design & coding for a seamless user experience.",
       auth_name: "David",
       user_icon: <FiUser />,
-      like_icon: <FiHeart />
+      like_icon: <FiHeart />,
+      link_path: "/computerscience/appdevelopment"
     },
     {
       id: 2,
@@ -33,7 +34,8 @@ const CSE = () => {
       course_detail: "Web development is the process of creating websites and web applications using programming languages like HTML, CSS, and JavaScript.",
       auth_name: "Aadarsh",
       user_icon: <FiUser />,
-      like_icon: <FiHeart />
+      like_icon: <FiHeart />,
+      link_path: "/computerscience/webdevelopment"
     },
     {
       id: 3,
@@ -100,7 +102,7 @@ const CSE = () => {
                   <h2>Computer Science</h2>
                   <div className="page_link">
                   <Link to="/">Home</Link>
-                    <a href="about-us.html">Computer Science</a>
+                    <a>Computer Science</a>
                   </div>
                 </div>
               </div>
@@ -117,7 +119,7 @@ const CSE = () => {
           <div className="courses_container" data-aos="fade-up" data-aos-offset="0">
 
             {
-              data.map(({ id, Image, course_name, course_detail, user_icon, like_icon }) => {
+              data.map(({ id, Image, course_name, course_detail, user_icon, like_icon, link_path }) => {
                 return (
                   <div className="single_course" key={id}>
                     <div className="course_head">
@@ -130,9 +132,10 @@ const CSE = () => {
                         <a href="http://">{course_name}</a>
                       </h4>
                       <p>{course_detail}</p>
-
                       <div className="course_meta">
+                      <Link to={link_path}>
                         <button className="btn btn-outline-success" type="submit" >View Details</button>
+                        </Link>
                         <div className='follows'>
                           <span className="meta_info">
                             <a href="/"><i>{user_icon}</i>25</a>

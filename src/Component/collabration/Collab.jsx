@@ -9,7 +9,7 @@ const Collab = () => {
                 <div className="container">
                     <div className="row justify-content-center" data-aos="fade-up">
                         <div className="main_title" data-aos="fade-up">
-                            <h2>Our Collabrations</h2>
+                            <h2>Our Collaborations</h2>
                             <p>It's a chance to discover your passion and find the perfect fit for you. Enjoy the journey!</p>
                         </div>
                     </div>

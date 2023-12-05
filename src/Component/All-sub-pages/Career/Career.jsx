@@ -9,6 +9,7 @@ import HR from './HR';
 import MixCareer from './MixCareer'
 import B2B from './B2B'
 import LeadGen from './LeadGen'
+import { Link } from 'react-router-dom'
 
 
 const Career = () => {
@@ -34,8 +35,8 @@ const Career = () => {
                                 <div className="banner_content text-center">
                                     <h2>Career</h2>
                                     <div className="page_link">
-                                        <a href="index.html">Home</a>
-                                        <a href="about-us.html">Career</a>
+                                        <Link to="/">Home</Link>
+                                        <a>Career</a>
                                     </div>
                                 </div>
                             </div>

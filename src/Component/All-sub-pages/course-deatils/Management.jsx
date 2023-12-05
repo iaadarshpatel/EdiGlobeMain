@@ -89,7 +89,7 @@ const Management = () => {
                                     <h2>Management</h2>
                                     <div className="page_link">
                                     <Link to="/">Home</Link>
-                                        <a href="about-us.html">Management</a>
+                                        <a>Management</a>
                                     </div>
                                 </div>
                             </div>

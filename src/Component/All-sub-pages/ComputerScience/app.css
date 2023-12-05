@@ -212,3 +212,34 @@ input {
 .right-contents .comments-area .star {
     margin-left: 20px;
 }
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+.snip1517 {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  margin: 30px 10px;
+}
+.plan-cost {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.plan-price {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.plan-type {
+  opacity: 0.8;
+  font-size: .5em;
+  text-transform: uppercase;
+}
+
+.course_gap{
+    padding: 30px 0px !important;
+}

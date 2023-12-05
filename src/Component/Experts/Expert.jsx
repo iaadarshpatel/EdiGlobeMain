@@ -69,10 +69,10 @@ const Expert = () => {
                     </div>
 
                     <div className="align-items-center justify-content-center d-flex">
-                      <a href="#"><FiTwitter /></a>
-                      <a href="#"><FaFacebookF /></a>
-                      <a href="#"><FaTwitter /></a>
-                      <a href="#"><FaLinkedin /></a>
+                      <a><FiTwitter /></a>
+                      <a><FaFacebookF /></a>
+                      <a><FaTwitter /></a>
+                      <a><FaLinkedin /></a>
                     </div>
                   </div>
                 </div>

@@ -56,7 +56,7 @@ const Civil = () => {
                                     <h2>Civil Engineering</h2>
                                     <div className="page_link">
                                     <Link to="/">Home</Link>
-                                        <a href="about-us.html">Civil Engineering</a>
+                                        <a>Civil Engineering</a>
                                     </div>
                                 </div>
                             </div>

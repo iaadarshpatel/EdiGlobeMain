@@ -56,7 +56,7 @@ const Mechanical = () => {
                                     <h2>Mechanical Engineering</h2>
                                     <div className="page_link">
                                         <Link to="/">Home</Link>
-                                        <a href="about-us.html">Mechanical Engineering</a>
+                                        <a>Mechanical Engineering</a>
                                     </div>
                                 </div>
                             </div>

@@ -3,6 +3,7 @@ import './about.css'
 import Footer from '../footer/Footer'
 import Nav from '../Nav/Nav'
 import About_us from '../../assets/about/about_us.png'
+import { Link } from 'react-router-dom'
 
 const about = () => {
     return (
@@ -17,8 +18,8 @@ const about = () => {
                                 <div className="banner_content text-center">
                                     <h2>About Us</h2>
                                     <div className="page_link">
-                                        <a href="index.html">Home</a>
-                                        <a href="about-us.html">About Us</a>
+                                        <Link to="/">Home</Link>
+                                        <a>About Us</a>
                                     </div>
                                 </div>
                             </div>

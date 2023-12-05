@@ -76,7 +76,7 @@ const AllDeparts = () => {
                                     <h2>All Departments</h2>
                                     <div className="page_link">
                                         <a href="/">Home</a>
-                                        <a href="about-us.html">All Departments</a>
+                                        <a>All Departments</a>
                                     </div>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ const AllDeparts = () => {
                             department_data.map(({ id, department_name, department_details, department_reviews, department_rating, rating_num, link_path }) => {
                                 return (
                                     <div class="ag-courses_item" key={id}>
-                                    <a href="#" class="ag-courses-item_link">
+                                    <a class="ag-courses-item_link">
                                     <div className="ag-courses-item_bg"></div>
                                     <div class="ag-courses-item_title">
                                     <b>{department_name}</b> <br />

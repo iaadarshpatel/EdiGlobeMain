@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.552ca4a5.css",
-    "main.js": "/static/js/main.f3353c09.js",
+    "main.css": "/static/css/main.95604111.css",
+    "main.js": "/static/js/main.fae10989.js",
     "static/media/iot.jpg": "/static/media/iot.1776362910e38cf0581a.jpg",
     "static/media/market-mang.jpg": "/static/media/market-mang.026c30b4538a30175277.jpg",
     "static/media/ca2.jpg": "/static/media/ca2.83640dd859bb4f9ae2c7.jpg",
@@ -32,14 +32,17 @@
     "static/media/certificate1.png": "/static/media/certificate1.daffd7001a8cd0d5d030.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/Meta-Logo.png": "/static/media/Meta-Logo.19bc696d31e7b99c9211.png",
+    "static/media/certi_1.jpeg": "/static/media/certi_1.4a39d0ea0043f67da4c5.jpeg",
     "static/media/course-details.jpg": "/static/media/course-details.0eefa66b661831272ff0.jpg",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/Shabnoor.jpeg": "/static/media/Shabnoor.17674ef143b35cf4d066.jpeg",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/certi_3.jpeg": "/static/media/certi_3.d81cc2f4ec8793e03183.jpeg",
     "static/media/alok.jpg": "/static/media/alok.9353703571067c65b89b.jpg",
     "static/media/Durga.png": "/static/media/Durga.b1168469b3ad10355255.png",
     "static/media/Avinash.jpeg": "/static/media/Avinash.709c7ef29cc6ff3be492.jpeg",
     "static/media/Project Management Issue-01.png": "/static/media/Project Management Issue-01.6fbaaf3d4298baa0edf8.png",
+    "static/media/certi_2.jpeg": "/static/media/certi_2.50aa8a61d2b87557b53f.jpeg",
     "static/media/Saakshi.png": "/static/media/Saakshi.39790a9b1734a1f43624.png",
     "static/media/Harshita.png": "/static/media/Harshita.8c1d9a542801eb1f00bd.png",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
@@ -64,11 +67,11 @@
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/index.html",
-    "main.552ca4a5.css.map": "/static/css/main.552ca4a5.css.map",
-    "main.f3353c09.js.map": "/static/js/main.f3353c09.js.map"
+    "main.95604111.css.map": "/static/css/main.95604111.css.map",
+    "main.fae10989.js.map": "/static/js/main.fae10989.js.map"
   },
   "entrypoints": [
-    "static/css/main.552ca4a5.css",
-    "static/js/main.f3353c09.js"
+    "static/css/main.95604111.css",
+    "static/js/main.fae10989.js"
   ]
 }

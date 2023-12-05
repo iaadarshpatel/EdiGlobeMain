@@ -32,12 +32,12 @@ const Footer = () => {
 <br />
             <li className='about-details'>
               <span>
-                <BiSolidPhoneCall style={color} className='phone-icon' /><a href="#">+91 9113211755</a>
+                <BiSolidPhoneCall style={color} className='phone-icon' /><a>+91 9113211755</a>
               </span>
             </li>
             <li className='about-details'>
               <span>
-                <BiLogoGmail style={color} className='phone-icon' /><a href="#">support@ediglobe.com </a>
+                <BiLogoGmail style={color} className='phone-icon' /><a>support@ediglobe.com </a>
               </span>
             </li>
           </div>
@@ -48,7 +48,7 @@ const Footer = () => {
               <li><Link to="/TermsCondition">Terms and conditions </Link></li>
               <li><Link to="/Privacy">Privacy policy</Link></li>
               <li><Link to="/Contact">Contact us</Link></li>
-              <li><a href="#">Blogs</a></li>
+              <li><a >Blogs</a></li>
             </ul>
           </div>
 

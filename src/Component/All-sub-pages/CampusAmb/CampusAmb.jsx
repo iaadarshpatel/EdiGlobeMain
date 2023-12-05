@@ -199,13 +199,13 @@ const CampusAmb = () => {
 
 
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                <button type="button" class="btn btn-secondary float-end m-2" data-bs-dismiss="modal"  style={{cursor: "progress"}}>Close</button>
-                        <RegisterForm/>
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <button type="button" class="btn btn-secondary float-end m-2" data-bs-dismiss="modal" style={{ cursor: "progress" }}>Close</button>
+                        <RegisterForm />
+                    </div>
                 </div>
             </div>
-        </div>
 
             <section id='testimonials' className="testimonial_area section_gap">
                 <div className='container'>
@@ -266,7 +266,7 @@ const CampusAmb = () => {
                                 <img src={certificate} alt="" />
                             </div>
                         </div>
-                        <RegisterForm containerClass="col-lg-4 offset-lg-1"/>
+                        <RegisterForm containerClass="col-lg-4 offset-lg-1" />
                     </div>
                 </div>
             </section >

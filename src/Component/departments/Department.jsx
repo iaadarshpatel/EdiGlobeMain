@@ -75,7 +75,7 @@ const cards = () => {
                     department_data.map(({id, department_name, department_details, department_reviews, department_rating, rating_num}) => {
                       return (
                     <div class="ag-courses_item" key={id}>
-                        <a href="#" class="ag-courses-item_link">
+                        <a  class="ag-courses-item_link">
                             <div className="ag-courses-item_bg"></div>
                             <div class="ag-courses-item_title">
                                 <b>{department_name}</b> <br />

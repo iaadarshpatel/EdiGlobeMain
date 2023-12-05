@@ -10,9 +10,10 @@ import Testimonial from './Component/testimonials/Testimonial';
 import Department from './Component/departments/cards';
 import ExpertWorks from './Component/ExpertWorks/ExpertWorks';
 import Collab from './Component/collabration/Collab';
+import Certificates from './Component/allcertificates/EachCertificates';
 
 
-const Home = (props) => {
+const Home = () => {
   return (
     <>
     <Nav/>
@@ -25,6 +26,7 @@ const Home = (props) => {
     <Expert/>
     <ExpertWorks/>
     <Testimonial/>
+    <Certificates/>
     <Footer/>
     </>
   )

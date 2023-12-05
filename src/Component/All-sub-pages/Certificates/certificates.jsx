@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../../Nav/Nav'
 import Footer from '../../footer/Footer'
+import { Link } from 'react-router-dom'
 
 const certificates = () => {
     return (
@@ -15,8 +16,8 @@ const certificates = () => {
                                 <div className="banner_content text-center">
                                     <h2>Certificates</h2>
                                     <div className="page_link">
-                                        <a href="index.html">Home</a>
-                                        <a href="about-us.html">Certificates</a>
+                                        <Link to="/">Home</Link>
+                                        <a>Certificates</a>
                                     </div>
                                 </div>
                             </div>

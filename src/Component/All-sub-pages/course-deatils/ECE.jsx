@@ -57,7 +57,7 @@ const ECE = () => {
                                     <h2>Electronic & Communication Engineering</h2>
                                     <div className="page_link">
                                     <Link to="/">Home</Link>
-                                        <a href="about-us.html">Electronic & Communication Engineering</a>
+                                        <a>Electronic & Communication Engineering</a>
                                     </div>
                                 </div>
                             </div>

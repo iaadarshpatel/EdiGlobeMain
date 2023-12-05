@@ -3,7 +3,7 @@ import './applybtn.css'
 
 const Applybtn = () => {
   return (
-    <a href="#" className="apply-btn">Apply Now</a>
+    <a  className="apply-btn">Apply Now</a>
   )
 }
 
