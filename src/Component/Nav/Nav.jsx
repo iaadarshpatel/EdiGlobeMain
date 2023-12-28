@@ -68,6 +68,7 @@ const Nav = () => {
                             </ul>
                             <form className="d-flex">
                                 <button className="btn btn-outline-success" type="submit">SignUp</button>
+                                <button className="btn btn-outline-success ms-1" type="submit">Diploma Course</button>
                             </form>
                         </div>
                     </div>
