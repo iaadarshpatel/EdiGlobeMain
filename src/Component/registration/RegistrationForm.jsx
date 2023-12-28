@@ -77,9 +77,10 @@ const RegistrationForm = () => {
         const { fullName, phone, email, course } = userData;
     
         // Check if there are any errors before submitting
-        if (!errors.fullName && !errors.phone && !errors.email && fullName && phone && email && course) {
+        if (!errors.fullName && !errors.phone && !errors.email && fullName && phone && email && course) 
+        try {
             // Your existing code for submitting data
-            const res = await fetch("https://rcb-leads-default-rtdb.firebaseio.com/.json", {
+            const res = await fetch("https://ediglobedummy-default-rtdb.firebaseio.com/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -112,13 +113,9 @@ const RegistrationForm = () => {
                     icon: 'error',
                 });
             }
-        } else {
-            // If there are validation errors, show an alert
-            Swal.fire({
-                title: 'Error',
-                text: 'Please fill in all the required fields correctly',
-                icon: 'error',
-            });
+            
+        } catch (error) {
+            console.error("Error during fetch:", error);
         }
     };
     

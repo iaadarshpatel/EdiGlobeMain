@@ -1,7 +1,7 @@
 import React from 'react'
 import t1 from '../../assets/trainer/Saakshi.png';
-import t2 from '../../assets/trainer/Harshita.png';
-import t3 from '../../assets/trainer/Dewasis.png';
+import t2 from '../../assets/testimonials/Harshita.jpg'
+import t3 from '../../assets/testimonials/PrajaktaPawar.jpg';
 import t4 from '../../assets/trainer/Durga.png';
 import t5 from '../../assets/trainer/Mili.png';
 import './testimonial.css'
@@ -32,7 +32,7 @@ const data = [
   },
   {
     id: 3,
-    alum_name: 'Dewasis',
+    alum_name: 'Prajakta Pawar',
     feedback: "The digital marketing and support team were absolutely amazing! They were always there to provide guidance and assistance whenever needed. Their expertise and dedication made the internship experience even more valuable. I can't thank them enough for their support throughout the program!",
     Image: t3
   },

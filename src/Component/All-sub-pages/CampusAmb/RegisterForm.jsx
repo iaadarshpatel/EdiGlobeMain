@@ -91,7 +91,8 @@ const RegisterForm = ({ containerClass }) => {
         const { fullName, phone, email, graduation_year, college } = userData;
 
         // Check if there are any errors before submitting
-        if (!errors.fullName && !errors.phone && !errors.email && fullName && phone && email && graduation_year && college) {
+        if (!errors.fullName && !errors.phone && !errors.email && fullName && phone && email && graduation_year && college) 
+         try   {
             // Your existing code for submitting data
             const res = await fetch("https://ediglobe-ca-default-rtdb.firebaseio.com/.json", {
                 method: "POST",
@@ -128,6 +129,9 @@ const RegisterForm = ({ containerClass }) => {
                     icon: 'error',
                 });
             }
+        }
+        catch (error) {
+            console.error("Error during fetch:", error);
         }
     };
 

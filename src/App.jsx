@@ -54,6 +54,22 @@ function App() {
       course_outline: "",
       check_curriculum: "The web development curriculum encompasses front-end and back-end development, guiding learners through the creation of dynamic and interactive websites.",
       download: "https://drive.google.com/uc?export=download&id=1p65EP0fM3E8txn71uRlE3UO3wG5e490B"
+    },
+    {
+      id: 3,
+      title: "Cyber Security",
+      course_desc: "It is crucial for shielding organizations and individuals from relentless cyber threats",
+      objective: (
+        <>
+        Cybersecurity aims to protect digital systems, networks, and data from unauthorized access, attacks, and damage.
+          <br /><br />
+          Its primary objective is to safeguard confidentiality, integrity, and availability of information, ensuring that individuals, organizations, and governments can operate securely in the digital realm. This involves implementing robust measures, such as firewalls, encryption, and intrusion detection systems, to mitigate cyber threats and vulnerabilities.
+        </>
+      ),
+      eligibility: "Eligibility for cybersecurity roles typically requires a relevant degree in computer science or a related field, along with proficiency in programming languages, network security, and information systems. Certifications like CISSP or CompTIA Security+ may be advantageous. Practical experience and a strong understanding of evolving cyber threats are also essential.",
+      course_outline: "",
+      check_curriculum: "With a focus on resilience and integrity, our cybersecurity services ensure that your data, privacy, and online operations remain safeguarded in the face of ever-changing online risks, allowing you to confidently embrace the opportunities of the digital age.",
+      download: "https://drive.google.com/uc?export=download&id=1p65EP0fM3E8txn71uRlE3UO3wG5e490B"
     }
   ];
   
@@ -98,6 +114,15 @@ function App() {
           check_curriculum={PropsDetails[1].check_curriculum}
           download={PropsDetails[1].download}
           />} />
+          <Route path='/computerscience/cybersecurity' element={<Dev 
+            title={PropsDetails[2].title}
+            course_desc={PropsDetails[2].course_desc}
+            objective={PropsDetails[2].objective}
+            eligibility={PropsDetails[2].eligibility}
+            course_outline={PropsDetails[2].course_outline}
+            check_curriculum={PropsDetails[2].check_curriculum}
+            download={PropsDetails[2].download}
+            />} />
       </Routes>
     </BrowserRouter>
   );

@@ -45,7 +45,8 @@ const CSE = () => {
       course_detail: "Cybersecurity is about guarding digital systems and data, like a digital superhero, ensuring information stays secure. Learn how to protect your data with us.",
       auth_name: "Cameron",
       user_icon: <FiUser />,
-      like_icon: <FiHeart />
+      like_icon: <FiHeart />,
+      link_path: "/computerscience/cybersecurity"
     },
     {
       id: 4,
