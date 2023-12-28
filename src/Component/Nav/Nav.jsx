@@ -67,8 +67,8 @@ const Nav = () => {
                                 </li>
                             </ul>
                             <form className="d-flex">
-                                <button className="btn btn-outline-success" type="submit">SignUp</button>
-                                <button className="btn btn-outline-success ms-1" type="submit">Diploma Course</button>
+                                <button className="btn btn-outline-dark" type="submit">SignUp</button>
+                                <button className="btn btn-outline-dark ms-1" type="submit">Diploma Course</button>
                             </form>
                         </div>
                     </div>
