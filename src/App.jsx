@@ -19,6 +19,7 @@ import Management from './Component/All-sub-pages/course-deatils/Management';
 import BioTechnology from './Component/All-sub-pages/course-deatils/Biotechnology';
 import Refundpolicy from './Component/All-sub-pages/refundPolicy/Refundpolicy';
 import Dev from './Component/All-sub-pages/ComputerScience/Dev';
+import AllEmployee from './Component/All-sub-pages/AllEmployee/AllEmployee';
 
 
 function App() {
@@ -78,6 +79,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
+        <Route path='/allemployee' element={<AllEmployee/>} />
         <Route path='/about' element={<About />} />
         <Route path='/TermsCondition' element={<TermsCondition />} />
         <Route path='/FaqPage' element={<FaqPage />} />

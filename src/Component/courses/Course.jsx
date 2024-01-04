@@ -63,13 +63,11 @@ const Course = () => {
             <img src={Image} alt="course_pic" />
           </div>
           <div className="course_content">
-        
             <span className="course_tag">{course_tag_name}</span>
             <h4 className="course_name">
               <a href="http://">{course_name}</a>
             </h4>
             <p>{course_detail}</p>
-
             <div className="course_meta"> 
               <button className="btn btn-outline-success" type="submit" >View Details</button>
               <div className='follows'>

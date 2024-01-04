@@ -96,7 +96,6 @@ const Footer = () => {
               <Link to="https://www.linkedin.com/company/ediglobe/" className='linkedin' target="_blank"><FaLinkedin />
               </Link>
               <Link to="https://youtube.com/@ediglobe?si=JbbkkmnYSrNePqCS" className='youtube' target="_blank"><BsYoutube /></Link>      
-                                  
             </div>
           </div>
         </div>

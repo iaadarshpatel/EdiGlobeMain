@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e19df9b9.css",
-    "main.js": "/static/js/main.9cde54f3.js",
+    "main.js": "/static/js/main.71f63b27.js",
     "static/media/iot.jpg": "/static/media/iot.1776362910e38cf0581a.jpg",
     "static/media/market-mang.jpg": "/static/media/market-mang.026c30b4538a30175277.jpg",
     "static/media/ca2.jpg": "/static/media/ca2.83640dd859bb4f9ae2c7.jpg",
@@ -36,7 +36,6 @@
     "static/media/course-details.jpg": "/static/media/course-details.0eefa66b661831272ff0.jpg",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/Shabnoor.jpeg": "/static/media/Shabnoor.17674ef143b35cf4d066.jpeg",
-    "static/media/jyoti.jpg": "/static/media/jyoti.910714a6c249d2f8146e.jpg",
     "static/media/divya.jpg": "/static/media/divya.ab5a602eb72b4c733ad5.jpg",
     "static/media/Harshita.jpg": "/static/media/Harshita.df23e03e74b32b2feb28.jpg",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
@@ -56,6 +55,7 @@
     "static/media/hr.jpg": "/static/media/hr.97ee7efa6d5fdfe1b971.jpg",
     "static/media/Dewasis.png": "/static/media/Dewasis.156aa0e8462833b59ead.png",
     "static/media/Unity-01.png": "/static/media/Unity-01.327ea8094df919409a38.png",
+    "static/media/jyoti.png": "/static/media/jyoti.dba8ab5558bfc0827504.png",
     "static/media/Autodesk-01.png": "/static/media/Autodesk-01.029a4b09407f76085998.png",
     "static/media/Microsoft-01.png": "/static/media/Microsoft-01.90551bf3947ed086ac4a.png",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
@@ -70,10 +70,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/index.html",
     "main.e19df9b9.css.map": "/static/css/main.e19df9b9.css.map",
-    "main.9cde54f3.js.map": "/static/js/main.9cde54f3.js.map"
+    "main.71f63b27.js.map": "/static/js/main.71f63b27.js.map"
   },
   "entrypoints": [
     "static/css/main.e19df9b9.css",
-    "static/js/main.9cde54f3.js"
+    "static/js/main.71f63b27.js"
   ]
 }

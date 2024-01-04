@@ -35,7 +35,7 @@ const Mechanical = () => {
             id: 3,
             Image: hev,
             price: "$50",
-            course_name: "Hybrid Electric Vehical ",
+            course_name: "Hybrid Electric Vehicle",
             course_detail: "A hybrid electric vehicle (HEV) combines an internal combustion engine with an electric motor to improve fuel efficiency and reduce emissions.",
             auth_name: "Cameron",
             user_icon: <FiUser />,
