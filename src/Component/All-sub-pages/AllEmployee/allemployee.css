@@ -11,6 +11,10 @@
     font-size: 12px !important;
 }
 
+#form input:focus {
+    border-color: #002347 !important;
+}
+
 .list-group li {
     text-align: left !important;
     padding-left: 5px !important;
